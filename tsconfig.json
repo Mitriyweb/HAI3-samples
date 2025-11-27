@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "_comment": [
+    "HAI3 TypeScript Configuration (Root)",
+    "",
+    "This file extends the standalone preset.",
+    "DO NOT add compilerOptions here - add them to presets/standalone/configs/tsconfig.json"
+  ],
+  "extends": "./presets/standalone/configs/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "."
+  },
+  "include": [
+    "src"
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}
